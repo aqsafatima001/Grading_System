@@ -1,0 +1,124 @@
+﻿body {
+    background-color: #0B0C10;
+    color: #C5C6C7;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #1F2833;
+    color: #C5C6C7;
+    padding: 15px;
+}
+
+th {
+    background-color: #1F2833;
+}
+
+tr:nth-child(even) {
+    background-color: #66FCF1;
+}
+
+tr:nth-child(odd) {
+    background-color: #45A29E;
+}
+
+.my-button-class {
+    background-color: #45A29E;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    .my-button-class:hover {
+        background-color: #66FCF1;
+        color: #0B0C10;
+    }
+
+#ddlCourses {
+    background-color: #1F2833;
+    color: #C5C6C7;
+    border: 1px solid #C5C6C7;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+    /* DropDownList option styles */
+    #ddlCourses option {
+        background-color: #0B0C10;
+        color: #C5C6C7;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+    }
+
+    /* DropDownList hover styles */
+    #ddlCourses:hover, #ddlCourses:focus {
+        background-color: #66FCF1;
+        color: #0B0C10;
+        border: 1px solid #66FCF1;
+    }
+
+    /* DropDownList selected option styles */
+    #ddlCourses option:checked {
+        background-color: #45A29E;
+        color: #0B0C10;
+        border: none;
+    }
+
+#lstStudents {
+    background-color: #1F2833;
+    color: #C5C6C7;
+    font-family: Arial, sans-serif;
+    border: 1px solid #1F2833;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+    #lstStudents option {
+        background-color: #0B0C10;
+        color: #C5C6C7;
+        border: none;
+        padding: 5px;
+    }
+
+        #lstStudents option:nth-child(even) {
+            background-color: #66FCF1;
+            color: black;
+        }
+
+        #lstStudents option:nth-child(odd) {
+            background-color: #45A29E;
+            color: black;
+        }
+
+#semester {
+    width: 15%;
+    text-align: center;
+    /* border: 2px solid white; */
+    border-radius: 16px;
+    height: 25px;
+    font-size: 19px;
+    background-color: silver;
+}
+.semlabel{
+    display:block;
+}
